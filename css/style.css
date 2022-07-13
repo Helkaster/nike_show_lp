@@ -1,0 +1,179 @@
+/* barlow-regular - latin */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/barlow-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/barlow-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* barlow-600 - latin */
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/barlow-v12-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/barlow-v12-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+
+
+
+
+  }
+  html{
+    box-sizing: border-box; 
+   }
+   *,*::before,*::after{
+       box-sizing: inherit;
+   }
+
+   body{
+    background: url(../img/image\ 1.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .content{
+    position: relative;
+    border-radius: 57.5126px;
+    width: 90%;
+    height: 85%;
+    padding: 20px ;
+    background: linear-gradient(157.26deg, rgba(217, 217, 217, 0.4) -5.39%, rgba(217, 217, 217, 0.2) 108.05%);
+    backdrop-filter: blur(10px);
+   }
+   .list{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 25px;
+    padding: 5 20px;
+    margin-bottom:60px ;
+    position: relative;
+    z-index: 10;
+   }
+   li a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.4s linear;
+   }
+   li a:hover{
+    color: black;
+   }
+  
+   h1{
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 150px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 3;
+   }
+   h2{
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 50px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+   }
+   p{
+    width: 600px;
+    color: #C2D4E3;
+    font-family: 'Roboto';
+    font-weight: 600;
+    padding-left: 5px;
+    font-size: 25px;
+    margin-bottom: 40px;
+   }
+   button{
+    border-radius:  57.5126px;
+    width: 180px;
+    height: 50px;
+    color: white;
+    background: linear-gradient(99.77deg, #5C5CFF -17.72%, #EF93E3 129.96%);
+    box-shadow: 5.75126px 8.62689px 28.7563px rgba(174, 174, 255, 0.35), 26.8414px 26.8414px 93.9449px rgba(174, 174, 255, 0.6), inset 4.31345px 7.18908px 23.005px rgba(255, 255, 255, 0.29), inset -8.62689px -8.62689px 17.2538px rgba(255, 255, 255, 0.25);
+    border: 0;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 16px;
+    transition: transform 0.4s linear;
+   }
+   button:hover{
+    transform: scale(1.1);
+   }
+   .kros{
+    position: absolute;
+    top: -20px;
+    left: 400px;
+    width: 950px;
+    z-index: 3;
+   }
+   .cercle{
+    position: absolute;
+    top: 65px;
+    right: 450px;
+    width: 250px;
+   }
+   .cercle_two{
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    width: 150px;
+    z-index: 4;
+   }
+   .cercle_one{
+    position: absolute;
+    bottom: 10px;
+    right: 420px;
+    z-index: 4;
+    width: 150px;
+   }
+  
+  
+  
+
+  
+
+
+
+  
+    
+    
+    
+  
+    
